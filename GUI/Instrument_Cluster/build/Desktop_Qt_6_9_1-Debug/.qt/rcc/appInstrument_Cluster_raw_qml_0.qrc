@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/Instrument_Cluster/">
+    <file alias="Main.qml">/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Main.qml</file>
+    <file alias="Cluster.qml">/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Cluster.qml</file>
+    <file alias="SpeedNeedle.qml">/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/SpeedNeedle.qml</file>
+    <file alias="BatteryNeedle.qml">/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/BatteryNeedle.qml</file>
+    <file alias="Gear.qml">/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Gear.qml</file>
+  </qresource>
+</RCC>
+

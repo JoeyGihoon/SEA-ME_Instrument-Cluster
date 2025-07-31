@@ -1,0 +1,14 @@
+-rootPath
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster
+-cmake-output
+-output-file
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appInstrument_Cluster_build.cmake
+-importPath
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/Instrument_Cluster
+-importPath
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/gihoon/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Instrument_Cluster.qrc
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appInstrument_Cluster_raw_qml_0.qrc

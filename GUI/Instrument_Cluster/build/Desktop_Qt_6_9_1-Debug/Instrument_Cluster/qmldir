@@ -1,0 +1,9 @@
+module Instrument_Cluster
+typeinfo appInstrument_Cluster.qmltypes
+prefer :/qt/qml/Instrument_Cluster/
+Main 1.0 Main.qml
+Cluster 1.0 Cluster.qml
+SpeedNeedle 1.0 SpeedNeedle.qml
+BatteryNeedle 1.0 BatteryNeedle.qml
+Gear 1.0 Gear.qml
+

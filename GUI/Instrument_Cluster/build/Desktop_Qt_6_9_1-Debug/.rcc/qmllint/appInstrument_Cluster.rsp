@@ -1,0 +1,14 @@
+--bare
+-I
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug
+-I
+/home/gihoon/Qt/6.9.1/gcc_64/qml
+--resource
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Instrument_Cluster.qrc
+--resource
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appInstrument_Cluster_raw_qml_0.qrc
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Main.qml
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Cluster.qml
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/SpeedNeedle.qml
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/BatteryNeedle.qml
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Gear.qml

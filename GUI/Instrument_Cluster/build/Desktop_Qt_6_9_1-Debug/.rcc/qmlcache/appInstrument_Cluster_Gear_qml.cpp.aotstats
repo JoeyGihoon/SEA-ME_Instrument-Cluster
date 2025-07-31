@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot access value for name gear",
+                        "functionName": "text",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 15
+                    }
+                ],
+                "filePath": "/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Gear.qml"
+            }
+        ],
+        "moduleId": "Instrument_Cluster(appInstrument_Cluster)"
+    }
+]

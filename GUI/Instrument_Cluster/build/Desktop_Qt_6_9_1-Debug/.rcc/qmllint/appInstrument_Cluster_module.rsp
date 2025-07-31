@@ -1,0 +1,10 @@
+-I
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug
+-I
+/home/gihoon/Qt/6.9.1/gcc_64/qml
+--resource
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Instrument_Cluster.qrc
+--resource
+/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appInstrument_Cluster_raw_qml_0.qrc
+--module
+Instrument_Cluster

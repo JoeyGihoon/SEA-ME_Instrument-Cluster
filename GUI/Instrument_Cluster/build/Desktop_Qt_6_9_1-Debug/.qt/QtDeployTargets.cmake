@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appInstrument_Cluster_FILE /home/gihoon/SEAME_project1/Qt/Instrument_Cluster/build/Desktop_Qt_6_9_1-Debug/appInstrument_Cluster)
+set(__QT_DEPLOY_TARGET_appInstrument_Cluster_TYPE EXECUTABLE)

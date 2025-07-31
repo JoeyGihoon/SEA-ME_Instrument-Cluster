@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot access value for name speedController",
+                        "functionName": "target",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "Cannot access value for name speedController",
+                        "functionName": "onSpeedChanged",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name batterylevel",
+                        "functionName": "target",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "Cannot access value for name batterylevel",
+                        "functionName": "onLevelChanged",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 41
+                    }
+                ],
+                "filePath": "/home/gihoon/SEAME_project1/Qt/Instrument_Cluster/Speed.qml"
+            }
+        ],
+        "moduleId": "Instrument_Cluster(appInstrument_Cluster)"
+    }
+]
