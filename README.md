@@ -38,6 +38,6 @@ export DISPLAY=:0
 
 ./Practice
 
-Arduino code
+**Arduino code**
 
-Qt framework
+**Qt framework**
