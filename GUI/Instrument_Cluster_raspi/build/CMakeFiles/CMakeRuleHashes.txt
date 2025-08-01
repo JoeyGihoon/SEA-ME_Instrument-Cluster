@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+a14a912f30f4effc39b4e98a47cdd7b2 CMakeFiles/Practice_autogen
+fe4bd8d6e73110b14e932007098c812c qrc_resources.cpp

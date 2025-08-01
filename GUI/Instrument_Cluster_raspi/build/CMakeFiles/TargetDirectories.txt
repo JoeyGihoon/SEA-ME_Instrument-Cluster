@@ -1,0 +1,8 @@
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/install/strip.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/install.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/list_install_components.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/install/local.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/rebuild_cache.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/edit_cache.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir
+/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice_autogen.dir

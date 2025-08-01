@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>Cluster.qml</file>
+        <file>SpeedNeedle.qml</file>
+        <file>BatteryNeedle.qml</file>
+        <file>Gear.qml</file>
+    </qresource>
+
+    <qresource prefix="/images">
+        <file>car_back.png</file>
+        <file>dial.png</file>
+        <file>highlight-needle.png</file>
+        <file>needle-normal.png</file>
+        <file>needle-warning.png</file>
+        <file>sea_me_white_text.png</file>
+        <file>car-highlights.png</file>
+    </qresource>
+
+    <qresource prefix="/icons">
+        <file>music.svg</file>
+        <file>nav.svg</file>
+        <file>settings.svg</file>
+        <file>time.svg</file>
+    </qresource>
+</RCC>
