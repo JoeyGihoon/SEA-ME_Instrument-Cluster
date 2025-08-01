@@ -23,6 +23,20 @@ source ~/env_tf1/bin/activate # active
 deactivate #exit    
 
 
+**build and play QT**
+
+
+rm -rf build
+
+mkdir build && cd build
+
+cmake .. -DCMAKE_BUILD_TYPE=Release
+
+make -j$(nproc)
+
+export DISPLAY=:0
+
+./Practice
 
 Arduino code
 
