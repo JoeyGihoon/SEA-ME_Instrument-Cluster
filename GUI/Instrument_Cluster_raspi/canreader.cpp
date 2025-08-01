@@ -42,7 +42,7 @@ void CanReader::handleFrames()
         if (f.frameId() == 0x631 && f.payload().size() >= 2) {
             const auto &b = f.payload();
             int raw = (quint8(b[0]) << 8) | quint8(b[1]);
-            int newSpeed = qRound(raw * 0.1);
+            int newSpeed = qRound(raw * 0.01);
             if (newSpeed != m_speed) {
                 m_speed = newSpeed;
                 emit speedChanged();
