@@ -1,5 +1,5 @@
-# DES Instrument Cluster Team 5
-Build a vehicle instrument cluster using QT and CAN communication
+# [DES] Instrument Cluster - Team 5
+[![Build Status](https://github.com/JoeyGihoon)](https://github.com/JoeyGihoon)
 
 ## Introduction
 aaa
