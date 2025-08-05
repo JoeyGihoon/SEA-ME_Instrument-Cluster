@@ -36,7 +36,7 @@ def find_gamepad():
 # 전역 상태
 state = {
     "voltage": 0.0,  # V
-    "gear": "N"     # F, R, N
+    "gear": "N"     # D, R, N
 }
 state_lock = threading.Lock()
 
@@ -47,7 +47,6 @@ def battery_monitor_loop(piracer, stop_event):
         voltage = round(piracer.get_battery_voltage(), 2)
         with state_lock:
             state["voltage"] = voltage
-        print(f"[Battery] {voltage:.2f} V")
         time.sleep(1.0)
     print("[INFO] Battery monitor stopped")
 
@@ -73,13 +72,14 @@ def rc_control_loop(piracer, dev, stop_event):
         elif event.type == ecodes.EV_ABS and event.code == ecodes.ABS_X:
             steering = -event.value / 32767.0
 
-        # 기어 상태
-        gear = "F" if throttle > 0 else ("R" if throttle < 0 else "N")
+        # 기어 상태 계산
+        gear = "D" if throttle > 0 else ("R" if throttle < 0 else "N")
         with state_lock:
             state["gear"] = gear
 
+        # 기어 변경 시 디버그 출력 및 상태 갱신
         if gear != prev_gear:
-            print(f"[Gear] {gear}")
+            print(f"[Gear] {prev_gear} → {gear}", flush=True)
             prev_gear = gear
 
         piracer.set_throttle_percent(throttle)
