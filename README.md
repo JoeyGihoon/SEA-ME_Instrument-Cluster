@@ -1,5 +1,5 @@
 # [DES] Instrument Cluster - Team 5
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+![Github Pages](https://img.shields.io/badge/JoeyGihoon-121013?style=for-the-badge&logo=github&logoColor=white)
 
 ## Introduction
 aaa
