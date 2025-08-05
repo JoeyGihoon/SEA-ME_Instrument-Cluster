@@ -7,7 +7,7 @@ This project implements a Qt-based instrument cluster for the PiRacer, displayin
 
 ## Components
 |  HW    | Image    |
-|:--------:|:--------:|:--------|
+|:--------:|:--------:|
 | PiRacer     | <img src="images/PiRacer.png" width="100"/>    |
 | Arduino UNO  | <img src="images/arduino.jpg" width="100"/>  |
 | CAN-BUS Shield V2.0  | <img src="images/CAN shield.jpg" width="100"/>     |
