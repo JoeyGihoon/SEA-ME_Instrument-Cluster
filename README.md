@@ -1,5 +1,5 @@
 # [DES] Instrument Cluster - Team 5
-[![Build Status](https://github.com/JoeyGihoon)](https://github.com/JoeyGihoon)
+https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 
 ## Introduction
 aaa
