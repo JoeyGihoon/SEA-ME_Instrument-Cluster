@@ -1,43 +1,19 @@
-# SEA-ME_Instrument-Cluster
+# DES Instrument Cluster Team 5
 Build a vehicle instrument cluster using QT and CAN communication
 
-**Rasberry pi config**
+## Introduction
+aaa
 
-**using command to connect Rasberry pi**
+## Features and Key Components
+aaa
 
-dmesg | grep -i spi # check can hat   
- 
-sudo ip link set can1 up type can bitrate 500000 #ready to communicate can1    
+## Components
+### HW
+ddd
+### SW
 
-candump can1 # recieve signals    
+## Installation and Usage
+### Installation
 
-sudo ip link set can1 down # turn off can1    
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-**to enter virtual environment**
-
-source ~/env_tf1/bin/activate # active    
-
-deactivate #exit    
-
-
-**build and play QT**
-
-
-rm -rf build
-
-mkdir build && cd build
-
-cmake .. -DCMAKE_BUILD_TYPE=Release
-
-make -j$(nproc)
-
-export DISPLAY=:0
-
-./Practice
-
-**Arduino code**
-
-**Qt framework**
+### Usage
+** Hello**
