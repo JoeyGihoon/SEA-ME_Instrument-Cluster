@@ -7,10 +7,13 @@ This project implements a Qt-based instrument cluster for the PiRacer, displayin
 
 ## Components
 |  HW    | Image    | Usage    |
-|:--------|:--------:|--------:|
-| 왼쪽정렬  | 가운데정렬 | 오른쪽정렬 |
-| 값A     | 값B     | 값C     |
-| 값D     | 값E     | 값F     |
+|:--------:|:--------:|:--------|
+| Arduino UNO  | <img src="images/arduino.jpg" width="100"/>  | 오른쪽정렬 |
+| CAN-BUS Shield V2.0  | <img src="images/CAN shield.jpg" width="100"/>     | 값C     |
+| CAN-BUS (FD) HAT for Raspberry Pi    | <img src="images/CAN HAT.jpg" width="100"/>     | 값F     |
+| Raspberri Pi 4    |   <img src="images/raspberry pi 4.jpg" width="100"/>   | 값F     |
+| Speed Sensor     | <img src="images/SEN-Speed-02.png" width="100"/>    | 값F     |
+
 - Speed Sensor Data Collection: Gathers vehicle speed data using an Arduino CAN shield.
 - Data Transmission and Communication: Transmits data to Raspberry Pi through the CAN bus and CAN HAT.
 - Qt Application: Receives and visualizes the collected data in real-time on a dashboard.
