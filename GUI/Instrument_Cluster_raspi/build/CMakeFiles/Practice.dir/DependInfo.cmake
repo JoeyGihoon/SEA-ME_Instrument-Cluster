@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/mocs_compilation.cpp" "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o"
-  "/home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.cpp" "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/canreader.cpp.o"
-  "/home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp" "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/main.cpp.o"
-  "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp" "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/qrc_resources.cpp.o"
-  "/home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.cpp" "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/timeprovider.cpp.o"
+  "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/mocs_compilation.cpp" "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o"
+  "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp" "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/canreader.cpp.o"
+  "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp" "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/main.cpp.o"
+  "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp" "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/qrc_resources.cpp.o"
+  "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.cpp" "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/timeprovider.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

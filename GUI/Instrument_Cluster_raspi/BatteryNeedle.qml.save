@@ -1,0 +1,138 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+
+Item {
+    id: root //
+    width: 200; height: 200
+
+    // 외부에서 주입할 배터리 전압 (V)
+    property real level: 0
+
+    // 측정 범위 (예: 10~13V)
+    property real minBat: 10
+    property real maxBat: 13
+
+    // 회전 각도 범위 (0V->-135°, max->+135°)
+    property real minAngle: -135
+    property real maxAngle: 135
+/*
+        Image {
+        id: batteryGauge
+        source: "/images/dial.png"
+        scale: 1.2
+        anchors.centerIn: parent
+        anchors.horizontalCenterOffset: 400
+	//anchors.verticalCenterOffset: 50
+        transform: Rotation {
+            origin.x: batteryGauge.width / 2
+            origin.y: batteryGauge.height / 2
+            angle: 180
+        }
+
+        // 바늘 피벗
+        Item {
+            id: batteryPivot
+            anchors.centerIn: parent
+            width: parent.width
+            height: parent.height
+            rotation: (canReader.battery / 100) * 270 - 135   // 0~100% 매핑
+	    
+	    Behavior on rotation{
+		SpringAnimation {
+		spring: 3
+		damping: 0.4
+		}
+	    }
+
+            Image {
+                id: batteryNeedle
+                source: "/images/needle-normal.png"
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.verticalCenterOffset: parent.height * 0.28
+                width: parent.width * 0.05
+                height: parent.height * 0.45
+
+		scale: 0.8
+            }
+	    Image {
+		id: highlightNeedle
+		source: "/images/highlight-needle.png"
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.verticalCenter: batteryNeedle.top
+		anchors.verticalCenterOffset: 100 //조정 필요
+		rotation: 180
+		width: parent.width * 0.2
+		height: parent.height * 0.12
+		z:4
+	    }
+        }
+    }
+
+    // 배터리 텍스트
+    Text {
+        id: batteryText
+        text: canReader.battery + "%"
+        anchors.centerIn: batteryGauge
+        anchors.horizontalCenterOffset: -30
+        anchors.verticalCenterOffset: 30
+        font.pixelSize: 20
+        color: "#7C9392"
+    }*/
+    
+    // 배경 다이얼
+    Image {
+        id: dial
+        source: "qrc:/images/dial.png"
+        //anchors.fill: parent
+	scale: 1.2
+        anchors.centerIn: parent
+        anchors.horizontalCenterOffset: 400
+	rotation: 180
+    }
+
+    // 바늘 중심 회전 컨테이너
+    Item {
+        anchors.centerIn: dial
+        width: dial.width; height: dial.height
+        // level 값을 각도로 매핑
+        rotation: {
+            var v = Math.max(minBat, Math.min(maxBat, level));
+            return ((v - minBat)/(maxBat - minBat)) * (maxAngle - minAngle) + minAngle;
+        }
+        // 바늘 이미지
+        Image {
+	    id:batteryNeedle
+            source: "qrc:/images/needle-normal.png"
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.verticalCenterOffset: parent.height * 0.28
+            width: parent.width * 0.05
+            height: parent.height * 0.45
+	    rotation: 180
+	    //scale: 0.8
+        }
+	Image {
+            id: highlightNeedle
+            source: "/images/highlight-needle.png"
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: batteryNeedle.top
+            anchors.verticalCenterOffset: 128 //조정 필요
+            rotation: 180
+            width: parent.width * 0.2
+            height: parent.height * 0.12
+            z:4
+        }
+
+    }
+    // 전압 텍스트 표시
+    Text {
+        text: level.toFixed(2) + " V"
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: parent.height * 0.35
+        font.pixelSize: 20
+        color: level < (minBat + (maxBat-minBat)*0.1) ? "red" : (level > (minBat + (maxBat-minBat)*0.9) ? "lime" : "white")
+    }
+
+}

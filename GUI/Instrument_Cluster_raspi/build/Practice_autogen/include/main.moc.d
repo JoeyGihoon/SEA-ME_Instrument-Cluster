@@ -1,7 +1,7 @@
-/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/include/main.moc: /home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp \
-  /home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/moc_predefs.h \
-  /home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.h \
-  /home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.h \
+/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/include/main.moc: /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp \
+  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/moc_predefs.h \
+  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h \
+  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.h \
   /usr/include/arm-linux-gnueabihf/bits/cpu-set.h \
   /usr/include/arm-linux-gnueabihf/bits/endian.h \
   /usr/include/arm-linux-gnueabihf/bits/endianness.h \

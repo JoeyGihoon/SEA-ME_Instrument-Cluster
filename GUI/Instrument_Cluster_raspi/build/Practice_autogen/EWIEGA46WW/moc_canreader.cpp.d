@@ -1,5 +1,5 @@
-/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/EWIEGA46WW/moc_canreader.cpp: /home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.h \
-  /home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/moc_predefs.h \
+/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/EWIEGA46WW/moc_canreader.cpp: /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h \
+  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/moc_predefs.h \
   /usr/include/arm-linux-gnueabihf/bits/cpu-set.h \
   /usr/include/arm-linux-gnueabihf/bits/endian.h \
   /usr/include/arm-linux-gnueabihf/bits/endianness.h \

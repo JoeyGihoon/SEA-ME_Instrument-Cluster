@@ -1,4 +1,4 @@
-# Install script for directory: /home/team5/SEA-ME/GUI/Instrument_Cluster
+# Install script for directory: /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Practice"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Practice" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Practice")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

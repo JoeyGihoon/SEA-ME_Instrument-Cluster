@@ -5,7 +5,7 @@ import "."
 ApplicationWindow {
     visible: true
     flags: Qt.FramelessWindowHint
-    //visibility: Window.FullScreen
+    visibility: Window.FullScreen
     width: 1280
     height: 400
     title: "Instrument Cluster"
@@ -28,14 +28,15 @@ ApplicationWindow {
             xhr.send()
         }
     }
-
+    
+/*
     Cluster {
         id: dial
         anchors.centerIn: parent
-        value: 0
+        //value: 0
         z:1
     }
-
+*/
     SpeedNeedle {
         id: speed
         anchors.centerIn: parent
@@ -45,6 +46,7 @@ ApplicationWindow {
     BatteryNeedle {
         id: battery
         anchors.centerIn: parent
+	anchors.horizontalCenterOffset: -20
         z:2
     }
 

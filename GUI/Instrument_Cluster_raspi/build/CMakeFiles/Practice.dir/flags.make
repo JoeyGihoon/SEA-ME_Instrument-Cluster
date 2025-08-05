@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_SERIALBUS_LIB
 
-CXX_INCLUDES = -I/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/include -isystem /usr/include/arm-linux-gnueabihf/qt5 -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQuick -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQmlModels -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQml -isystem /usr/include/arm-linux-gnueabihf/qt5/QtNetwork -isystem /usr/include/arm-linux-gnueabihf/qt5/QtCore -isystem /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -isystem /usr/include/arm-linux-gnueabihf/qt5/QtGui -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQuickControls2 -isystem /usr/include/arm-linux-gnueabihf/qt5/QtSerialBus
+CXX_INCLUDES = -I/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/include -isystem /usr/include/arm-linux-gnueabihf/qt5 -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQuick -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQmlModels -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQml -isystem /usr/include/arm-linux-gnueabihf/qt5/QtNetwork -isystem /usr/include/arm-linux-gnueabihf/qt5/QtCore -isystem /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -isystem /usr/include/arm-linux-gnueabihf/qt5/QtGui -isystem /usr/include/arm-linux-gnueabihf/qt5/QtQuickControls2 -isystem /usr/include/arm-linux-gnueabihf/qt5/QtSerialBus
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -std=gnu++17
 

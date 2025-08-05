@@ -1,15 +1,60 @@
 {
-	"BUILD_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen",
-	"CMAKE_BINARY_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster",
+	"BUILD_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen",
+	"CMAKE_BINARY_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/team5/SEA-ME/GUI/Instrument_Cluster/CMakeLists.txt",
-		"/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/CMakeLists.txt",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeSystem.cmake.in",
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineCXXCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-Determine-CXX.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompilerId.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCompilerIdDetection.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake",
@@ -25,6 +70,17 @@
 		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake",
 		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeTestCXXCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeTestCompilerCommon.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompilerABI.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeTestCompilerCommon.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp",
+		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake",
+		"/usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -94,28 +150,28 @@
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5SerialBus/Qt5SerialBus_SocketCanBusPlugin.cmake",
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5SerialBus/Qt5SerialBus_TinyCanBusPlugin.cmake",
 		"/usr/lib/arm-linux-gnueabihf/cmake/Qt5SerialBus/Qt5SerialBus_VirtualCanBusPlugin.cmake",
-		"/home/team5/SEA-ME/GUI/Instrument_Cluster/resources.qrc",
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/resources.qrc",
 		"/usr/share/cmake-3.18/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster",
+	"CMAKE_SOURCE_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.h",
+			"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h",
 			"MU",
 			"EWIEGA46WW/moc_canreader.cpp"
 		],
 		[
-			"/home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.h",
+			"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.h",
 			"MU",
 			"EWIEGA46WW/moc_timeprovider.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -166,26 +222,41 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [ "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp" ],
+	"MOC_SKIP" : 
+	[
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 1,
-	"PARSE_CACHE_FILE" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.cpp", "MU" ],
-		[ "/home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp", "MU" ],
-		[ "/home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.cpp", "MU" ]
+		[
+			"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp",
+			"MU"
+		],
+		[
+			"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp",
+			"MU"
+		],
+		[
+			"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.cpp",
+			"MU"
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [ "/home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp" ],
+	"UIC_SKIP" : 
+	[
+		"/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

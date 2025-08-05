@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/team5/SEA-ME/GUI/Instrument_Cluster
+CMAKE_SOURCE_DIR = /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/team5/SEA-ME/GUI/Instrument_Cluster/build
+CMAKE_BINARY_DIR = /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build
 
 # Utility rule file for Practice_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/team5/SEA-ME/GUI/Instrument_Cluster/build
 include CMakeFiles/Practice_autogen.dir/progress.make
 
 CMakeFiles/Practice_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Practice"
-	/usr/bin/cmake -E cmake_autogen /home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Practice"
+	/usr/bin/cmake -E cmake_autogen /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice_autogen.dir/AutogenInfo.json Release
 
 Practice_autogen: CMakeFiles/Practice_autogen
 Practice_autogen: CMakeFiles/Practice_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/Practice_autogen.dir/clean:
 .PHONY : CMakeFiles/Practice_autogen.dir/clean
 
 CMakeFiles/Practice_autogen.dir/depend:
-	cd /home/team5/SEA-ME/GUI/Instrument_Cluster/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team5/SEA-ME/GUI/Instrument_Cluster /home/team5/SEA-ME/GUI/Instrument_Cluster /home/team5/SEA-ME/GUI/Instrument_Cluster/build /home/team5/SEA-ME/GUI/Instrument_Cluster/build /home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Practice_autogen.dir/depend
 

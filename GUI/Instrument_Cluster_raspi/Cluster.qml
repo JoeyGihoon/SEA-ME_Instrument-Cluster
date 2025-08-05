@@ -6,11 +6,11 @@ Item {
     id: root
     width: 1280; height: 400
 
-    /* -------- 실시간 상태 (Python 백엔드 → Flask) -------- */
+    // -------- 실시간 상태 (Python 백엔드 → Flask) -------- 
     property real  batteryVoltage: 0   // /status.voltage (V)
     property string gearState: "N"     // /status.gear (F/R/N)
 
-    /* 1초마다 192.168.86.54:5000/status 호출해 전압·기어 갱신 */
+    // 1초마다 192.168.86.54:5000/status 호출해 전압·기어 갱신 
     Timer {
         interval: 1000; running: true; repeat: true
         onTriggered: {
@@ -27,7 +27,7 @@ Item {
         }
     }
 
-    /* ================= 속도 게이지 (Arduino → CAN → canReader.speed) ================= */
+    // ================= 속도 게이지 (Arduino → CAN → canReader.speed) ================= 
     Image {
         id: speedGauge
         source: "qrc:/images/dial.png"
@@ -56,7 +56,7 @@ Item {
         }
     }
 
-    /* ================= 배터리 게이지 ================= */
+    // ================= 배터리 게이지 ================= 
     Image {
         id: batteryGauge
         source: "qrc:/images/dial.png"
@@ -91,7 +91,7 @@ Item {
         font.pixelSize: 20; color: "#7C9392"
     }
 
-    /* ================= 기어 표시 (센터) ================= */
+    // ================= 기어 표시 (센터) ================= 
     Rectangle {
         id: gearDisplay
         width: 150; height: 150; radius: 75
@@ -105,7 +105,10 @@ Item {
         }
     }
 
-    /* (차량 이미지·기타 요소 원본대로 유지) */
+    // (차량 이미지·기타 요소 원본대로 유지) 
     Image { source: "qrc:/images/car_back.png"; anchors.centerIn: parent; anchors.verticalCenterOffset: 90 }
     Image { source: "qrc:/images/car-highlights.png"; anchors.centerIn: parent; anchors.verticalCenterOffset: 90; z: 2 }
 }
+
+
+

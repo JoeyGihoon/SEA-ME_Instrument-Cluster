@@ -23,6 +23,17 @@ Item {
             height: parent.height
             // 0~240 km/h  =>  -135° ~ +135°
             rotation: (canReader.speed / 240) * 270 + 5
+	    
+	    Behavior on rotation {
+		/*NumberAnimation {
+		duration: 150  // 속도 조절 가능 (ms)
+		easing.type: Easing.InOutQuad
+		}*/
+		SpringAnimation {
+		spring:3
+		damping:0.4
+		}
+	    }
 
             Image {
                 id: speedNeedle
@@ -32,75 +43,40 @@ Item {
                 anchors.verticalCenterOffset: parent.height * 0.28   // 핀 위치 보정
                 width: parent.width * 0.05
                 height: parent.height * 0.45
+
+		rotation: 180
+		scale: 0.8
             }
-        }
+            Image {
+		id: highlightNeedle
+		source: "/images/highlight-needle.png"
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.verticalCenter: speedNeedle.top
+		//anchors.verticalCenterOffset: parent.height * 0.28  // 동일한 피벗 위치
+		anchors.verticalCenterOffset: 128
+		rotation: 180
+		width: parent.width * 0.2
+		height: parent.height * 0.12
+		
+		z: 4 
+	     }
+	}
 
         // 속도 숫자 표시
+	Text {
+	    id: speedText1
+            text: canReader.speed
+	    anchors.centerIn: parent
+	    font.pixelSize: 64
+	    color: "white"
+	}
         Text {
             id: speedText
-            text: canReader.speed + " cm/s"
+            text: " cm/s"
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 30
+            anchors.verticalCenterOffset: 40
             font.pixelSize: 20
             color: "#7C9392"
-        }
-    }
-
-    // -------------------- 배터리 잔량 --------------------
-    Image {
-        id: batteryGauge
-        source: "/images/dial.png"
-        scale: 1.2
-        anchors.centerIn: parent
-        anchors.horizontalCenterOffset: 350
-        transform: Rotation {
-            origin.x: batteryGauge.width / 2
-            origin.y: batteryGauge.height / 2
-            angle: 180
-        }
-
-        // 바늘 피벗
-        Item {
-            id: batteryPivot
-            anchors.centerIn: parent
-            width: parent.width
-            height: parent.height
-            rotation: (canReader.battery / 100) * 270 - 135   // 0~100% 매핑
-
-            Image {
-                id: batteryNeedle
-                source: "/images/needle-normal.png"
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.verticalCenterOffset: parent.height * 0.28
-                width: parent.width * 0.05
-                height: parent.height * 0.45
-            }
-        }
-    }
-
-    // 배터리 텍스트
-    Text {
-        id: batteryText
-        text: canReader.battery + "%"
-        anchors.centerIn: batteryGauge
-        anchors.horizontalCenterOffset: -30
-        anchors.verticalCenterOffset: 30
-        font.pixelSize: 20
-        color: "#7C9392"
-    }
-
-    // -------------------- 가운데 디스플레이 --------------------
-    Image {
-        id: display
-        source: "/images/dial.png"
-        scale: 1.5
-        anchors.centerIn: parent
-        anchors.verticalCenterOffset: 60
-        transform: Rotation {
-            origin.x: display.width / 2
-            origin.y: display.height / 2
-            angle: 90
         }
     }
 
@@ -119,3 +95,6 @@ Item {
         z: 2
     }
 }
+
+
+

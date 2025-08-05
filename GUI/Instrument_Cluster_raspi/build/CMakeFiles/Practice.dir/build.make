@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/team5/SEA-ME/GUI/Instrument_Cluster
+CMAKE_SOURCE_DIR = /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/team5/SEA-ME/GUI/Instrument_Cluster/build
+CMAKE_BINARY_DIR = /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practice.dir/depend.make
@@ -94,73 +94,73 @@ qrc_resources.cpp: ../settings.svg
 qrc_resources.cpp: ../time.svg
 qrc_resources.cpp: resources.qrc.depends
 qrc_resources.cpp: ../resources.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"
-	/usr/lib/qt5/bin/rcc --name resources --output /home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp /home/team5/SEA-ME/GUI/Instrument_Cluster/resources.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"
+	/usr/lib/qt5/bin/rcc --name resources --output /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/resources.qrc
 
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: Practice_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o -c /home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o -c /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/mocs_compilation.cpp
 
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/mocs_compilation.cpp > CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/mocs_compilation.cpp > CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME/GUI/Instrument_Cluster/build/Practice_autogen/mocs_compilation.cpp -o CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice_autogen/mocs_compilation.cpp -o CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Practice.dir/main.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/main.cpp.o -c /home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/main.cpp.o -c /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp
 
 CMakeFiles/Practice.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp > CMakeFiles/Practice.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp > CMakeFiles/Practice.dir/main.cpp.i
 
 CMakeFiles/Practice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME/GUI/Instrument_Cluster/main.cpp -o CMakeFiles/Practice.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp -o CMakeFiles/Practice.dir/main.cpp.s
 
 CMakeFiles/Practice.dir/timeprovider.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/timeprovider.cpp.o: ../timeprovider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practice.dir/timeprovider.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/timeprovider.cpp.o -c /home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practice.dir/timeprovider.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/timeprovider.cpp.o -c /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.cpp
 
 CMakeFiles/Practice.dir/timeprovider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/timeprovider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.cpp > CMakeFiles/Practice.dir/timeprovider.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.cpp > CMakeFiles/Practice.dir/timeprovider.cpp.i
 
 CMakeFiles/Practice.dir/timeprovider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/timeprovider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME/GUI/Instrument_Cluster/timeprovider.cpp -o CMakeFiles/Practice.dir/timeprovider.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.cpp -o CMakeFiles/Practice.dir/timeprovider.cpp.s
 
 CMakeFiles/Practice.dir/canreader.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/canreader.cpp.o: ../canreader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Practice.dir/canreader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/canreader.cpp.o -c /home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Practice.dir/canreader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/canreader.cpp.o -c /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp
 
 CMakeFiles/Practice.dir/canreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/canreader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.cpp > CMakeFiles/Practice.dir/canreader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp > CMakeFiles/Practice.dir/canreader.cpp.i
 
 CMakeFiles/Practice.dir/canreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/canreader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME/GUI/Instrument_Cluster/canreader.cpp -o CMakeFiles/Practice.dir/canreader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp -o CMakeFiles/Practice.dir/canreader.cpp.s
 
 CMakeFiles/Practice.dir/qrc_resources.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/qrc_resources.cpp.o: qrc_resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Practice.dir/qrc_resources.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/qrc_resources.cpp.o -c /home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Practice.dir/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/qrc_resources.cpp.o -c /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp
 
 CMakeFiles/Practice.dir/qrc_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/qrc_resources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp > CMakeFiles/Practice.dir/qrc_resources.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp > CMakeFiles/Practice.dir/qrc_resources.cpp.i
 
 CMakeFiles/Practice.dir/qrc_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/qrc_resources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME/GUI/Instrument_Cluster/build/qrc_resources.cpp -o CMakeFiles/Practice.dir/qrc_resources.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/qrc_resources.cpp -o CMakeFiles/Practice.dir/qrc_resources.cpp.s
 
 # Object files for target Practice
 Practice_OBJECTS = \
@@ -188,7 +188,7 @@ Practice: /usr/lib/arm-linux-gnueabihf/libQt5Network.so.5.15.2
 Practice: /usr/lib/arm-linux-gnueabihf/libQt5Gui.so.5.15.2
 Practice: /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5.15.2
 Practice: CMakeFiles/Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/Practice.dir/clean:
 .PHONY : CMakeFiles/Practice.dir/clean
 
 CMakeFiles/Practice.dir/depend: qrc_resources.cpp
-	cd /home/team5/SEA-ME/GUI/Instrument_Cluster/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team5/SEA-ME/GUI/Instrument_Cluster /home/team5/SEA-ME/GUI/Instrument_Cluster /home/team5/SEA-ME/GUI/Instrument_Cluster/build /home/team5/SEA-ME/GUI/Instrument_Cluster/build /home/team5/SEA-ME/GUI/Instrument_Cluster/build/CMakeFiles/Practice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles/Practice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Practice.dir/depend
 
