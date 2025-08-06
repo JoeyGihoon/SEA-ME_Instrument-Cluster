@@ -100,7 +100,8 @@ The gear state (D, R, N) is calculated automatically based on the current thrott
 
 ## 8. Result
 <img src="images/Screenshot from 2025-08-06 12-11-53.png">
-<video src="images/Result_rotated.mp4" controls muted loop></video>
+
+[Video](https://github.com/oyg0323/SEA-ME_Instrument-Cluster/blob/main/images/Result_rotated.mp4)
 
 
 ## 9. Contributors
