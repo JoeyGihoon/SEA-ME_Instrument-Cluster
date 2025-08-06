@@ -27,7 +27,7 @@ source "$HOME/env_tf1/bin/activate"
 
 nohup python3  "$HOME/SEA-ME/GUI/Instrument_Cluster/build/volt_gear.py" \
 
-     > "$LOGDIR/volt_gear.log" 2>&1 &
+     >"$LOGDIR/volt_gear.log" 2>&1 &
      
 PYTHON_PID=$!
 
@@ -38,7 +38,7 @@ export DISPLAY=:0
 
 nohup "$HOME/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/Practice" \
 
-     > "$LOGDIR/qt_practice.log" 2>&1 &
+     >"$LOGDIR/qt_practice.log" 2>&1 &
      
 QT_PID=$!
 
