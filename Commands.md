@@ -3,9 +3,13 @@
 
 
 # RUN Instrument Cluster #./startic
+
 set -euo pipefail           # 스크립트 안정 옵션
+
 LOGDIR="$HOME/logs"         # 로그 폴더
+
 mkdir -p "$LOGDIR"
+
 
 #1) CAN-BUS 인터페이스 up
 sudo ip link set can1 up type can bitrate 500000
