@@ -8,6 +8,7 @@ CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
@@ -28,6 +29,7 @@ CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontainertools_impl.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h
@@ -77,7 +79,9 @@ CMakeFiles/Practice.dir/canreader.cpp.o
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.cpp
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDebug
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qarraydata.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic.h
@@ -85,6 +89,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic_cxx11.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic_msvc.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasicatomic.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasictimer.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearray.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearraylist.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qchar.h
@@ -96,6 +101,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontiguouscache.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h
@@ -137,6 +143,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qsystemdetection.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtcore-config.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtextstream.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtimer.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtypeinfo.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qvariant.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qvarlengtharray.h
@@ -156,6 +163,7 @@ CMakeFiles/Practice.dir/main.cpp.o
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp
  /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/timeprovider.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
@@ -179,6 +187,7 @@ CMakeFiles/Practice.dir/main.cpp.o
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+ /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h

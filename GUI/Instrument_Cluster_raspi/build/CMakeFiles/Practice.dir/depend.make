@@ -7,6 +7,7 @@ CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: Practice_autoge
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: ../canreader.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: ../timeprovider.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
+CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
@@ -27,6 +28,7 @@ CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/ar
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontainertools_impl.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
+CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
 CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h
@@ -76,7 +78,9 @@ CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.o: /usr/include/ar
 CMakeFiles/Practice.dir/canreader.cpp.o: ../canreader.cpp
 CMakeFiles/Practice.dir/canreader.cpp.o: ../canreader.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDebug
+CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
+CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qarraydata.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic.h
@@ -84,6 +88,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/Qt
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic_cxx11.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic_msvc.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasicatomic.h
+CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasictimer.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearray.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearraylist.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qchar.h
@@ -95,6 +100,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/Qt
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontiguouscache.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h
@@ -136,6 +142,7 @@ CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/Qt
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qsystemdetection.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtcore-config.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtextstream.h
+CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtimer.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qtypeinfo.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qvariant.h
 CMakeFiles/Practice.dir/canreader.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qvarlengtharray.h
@@ -155,6 +162,7 @@ CMakeFiles/Practice.dir/main.cpp.o: ../canreader.h
 CMakeFiles/Practice.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Practice.dir/main.cpp.o: ../timeprovider.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
+CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
@@ -178,6 +186,7 @@ CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
 CMakeFiles/Practice.dir/main.cpp.o: /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h

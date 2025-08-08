@@ -61,6 +61,7 @@
   /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
   /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime \
+  /usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h \
@@ -81,6 +82,7 @@
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h \
+  /usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h \
   /usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h \

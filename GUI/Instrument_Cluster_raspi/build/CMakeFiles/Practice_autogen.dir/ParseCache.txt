@@ -66,6 +66,7 @@
  mdp:/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h
  mdp:/usr/include/arm-linux-gnueabihf/gnu/stubs.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QDateTime
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
@@ -86,6 +87,7 @@
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qcoreevent.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qdatetime.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
@@ -616,12 +618,15 @@
  mdp:/usr/include/arm-linux-gnueabihf/c++/10/bits/os_defines.h
  mdp:/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h
  mdp:/usr/include/arm-linux-gnueabihf/gnu/stubs.h
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/QTimer
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qalgorithms.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qarraydata.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qatomic_cxx11.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasicatomic.h
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qbasictimer.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearray.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qbytearraylist.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qchar.h
@@ -629,6 +634,7 @@
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qconfig.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontainerfwd.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qcontainertools_impl.h
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qflags.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qgenericatomic.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h
@@ -660,6 +666,7 @@
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qsysinfo.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qsystemdetection.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qtcore-config.h
+ mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qtimer.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qtypeinfo.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qvarlengtharray.h
  mdp:/usr/include/arm-linux-gnueabihf/qt5/QtCore/qvector.h

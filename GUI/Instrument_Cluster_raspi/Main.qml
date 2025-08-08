@@ -29,14 +29,6 @@ ApplicationWindow {
         }
     }
     
-/*
-    Cluster {
-        id: dial
-        anchors.centerIn: parent
-        //value: 0
-        z:1
-    }
-*/
     SpeedNeedle {
         id: speed
         anchors.centerIn: parent

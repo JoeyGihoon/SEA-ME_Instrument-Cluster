@@ -43,11 +43,17 @@ QCanBusFrame
 -
 QDebug
 -
+cmath
+-
 
 /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/canreader.h
 QObject
 -
 QtSerialBus/QCanBusDevice
+-
+QTimer
+-
+QElapsedTimer
 -
 
 /home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/main.cpp
@@ -87,6 +93,10 @@ qdatetime.h
 /usr/include/arm-linux-gnueabihf/qt5/QtCore/QDebug
 qdebug.h
 /usr/include/arm-linux-gnueabihf/qt5/QtCore/qdebug.h
+
+/usr/include/arm-linux-gnueabihf/qt5/QtCore/QElapsedTimer
+qelapsedtimer.h
+/usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
 
 /usr/include/arm-linux-gnueabihf/qt5/QtCore/QObject
 qobject.h
@@ -262,6 +272,10 @@ list
 map
 -
 utility
+-
+
+/usr/include/arm-linux-gnueabihf/qt5/QtCore/qelapsedtimer.h
+QtCore/qglobal.h
 -
 
 /usr/include/arm-linux-gnueabihf/qt5/QtCore/qeventloop.h
