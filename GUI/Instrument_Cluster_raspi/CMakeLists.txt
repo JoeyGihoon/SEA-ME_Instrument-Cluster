@@ -41,6 +41,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt5::Qml
     Qt5::QuickControls2
     Qt5::SerialBus
+    #Qt5::Svg
 )
 
 # 설치 옵션 (선택)

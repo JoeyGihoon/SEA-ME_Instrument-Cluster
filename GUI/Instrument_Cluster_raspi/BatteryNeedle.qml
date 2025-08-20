@@ -14,7 +14,7 @@ Item {
         interval: 1000; running: true; repeat: true
         onTriggered: {
             var xhr = new XMLHttpRequest()
-            xhr.open("GET", "http://192.168.86.54:5000/status")
+            xhr.open("GET", "http://192.168.86.22:5000/status")
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                     var obj = JSON.parse(xhr.responseText)
@@ -57,6 +57,14 @@ Item {
             return -180 * ((v - minBat)/(maxBat - minBat));
 	    //return ((v - minBat)/(maxBat - minBat)) * (minAngle - maxAngle) + maxAngle;
         }
+
+	Behavior on rotation {
+            NumberAnimation {
+                duration: 150  // 속도 조절 가능 (ms)
+                easing.type: Easing.InOutQuad
+            }
+        }
+
         // 바늘 이미지
         Image {
 	    id:batteryNeedle

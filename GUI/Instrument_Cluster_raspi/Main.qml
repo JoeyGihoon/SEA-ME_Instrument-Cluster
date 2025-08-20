@@ -19,7 +19,7 @@ ApplicationWindow {
         running: true
         onTriggered: {
             var xhr = new XMLHttpRequest()
-            xhr.open("GET", "http://192.18.86.54:5000/gear")
+            xhr.open("GET", "http://192.168.86.22:5000/gear")
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                     gearState = xhr.responseText
@@ -29,66 +29,94 @@ ApplicationWindow {
         }
     }
     
-    SpeedNeedle {
-        id: speed
-        anchors.centerIn: parent
-        z:2
+    StackView{
+	id: stackView
+	anchors.fill: parent
+	initialItem: homePage
+	focus: true
     }
 
-    BatteryNeedle {
-        id: battery
-        anchors.centerIn: parent
-	anchors.horizontalCenterOffset: -20
-        z:2
-    }
+    Component {
+	id: homePage
+	Item {
+	    anchors.fill: parent
 
-    Gear {
-        id: gear
-        anchors.centerIn: parent
-        z:2
-    }
-
-    //time
-    Item {
-        anchors.fill: parent
-
-        Rectangle {
-            anchors.fill: parent
-            color: "transparent"
-
-            Text {
-                text: timeProvider.currentDateTime || ""
-                font.pixelSize: 20
-                color: "#7C9392"
-                anchors.top: parent.top
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.topMargin: 70  // 원하는 만큼 여백 조절
+	    SpeedNeedle {
+                id: speed
+                anchors.centerIn: parent
+                z:2
             }
-        }
-    }
 
-    //label
-    Text {
-        text: "Team 5"
-        font.pixelSize: 20            // 작게
-        color: "white"              // 흐린 회색
-        opacity: 0.4                  // 투명도 조절
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.leftMargin: 10       // 좌측 여백
-        anchors.topMargin: 10        // 상단 여백
-        z:10
-    }
-    Image{
-        id: seame
-        visible: true
-        scale: 0.05
-        opacity: 0.4                  // 투명도 조절
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
-        anchors.rightMargin: -970       // 좌측 여백
-        anchors.bottomMargin: -150        // 상단 여백
-        source: "qrc:/images/sea_me_white_text.png"
-        z:10
+            BatteryNeedle {
+                id: battery
+                anchors.centerIn: parent
+                anchors.horizontalCenterOffset: -20
+                z:2
+            }
+
+            Gear {
+                id: gear
+                anchors.centerIn: parent
+                z:2
+            }
+
+            //time
+            Item {
+                anchors.fill: parent
+
+                Rectangle {
+                    anchors.fill: parent
+                    color: "transparent"
+
+                    Text {
+                        text: timeProvider.currentDateTime || ""
+                        font.pixelSize: 20
+                        color: "#7C9392"
+                        anchors.top: parent.top
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.topMargin: 70  // 원하는 만큼 여백 조절
+                    }  
+                }
+            }
+        
+
+	    //label
+            Text {
+                text: "Team 5"
+                font.pixelSize: 20            // 작게
+                color: "white"              // 흐린 회색
+                opacity: 0.4                  // 투명도 조절
+                anchors.left: parent.left
+                anchors.top: parent.top
+                anchors.leftMargin: 10       // 좌측 여백
+                anchors.topMargin: 10        // 상단 여백
+                z:10
+            }
+            Image{
+                id: seame
+                visible: true
+                scale: 0.05
+                opacity: 0.4                  // 투명도 조절
+                anchors.right: parent.right
+                anchors.bottom: parent.bottom
+                anchors.rightMargin: -970       // 좌측 여백
+                anchors.bottomMargin: -150        // 상단 여백
+                source: "qrc:/images/sea_me_white_text.png"
+                z:10
+
+		//////////UI 전환 버튼/////////////
+	        
+		MouseArea {
+		    anchors.fill: parent
+		    onClicked: {
+		        if(stackView.currentItem && stackView.currentItem.objectName === "OtherScreen")
+			    return;
+		        //stackView.push(Qt.resolvedUrl("OtherScreen.qml"))
+		        stackView.push("qrc:/OtherScreen.qml", { gearState: gearState })
+		    }
+		
+	        }
+            }
+	}
     }
 }

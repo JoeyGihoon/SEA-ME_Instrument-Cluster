@@ -15,7 +15,7 @@ rc_control.py
 
 import threading
 import time
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from evdev import InputDevice, ecodes, list_devices
 
 # PiRacer SDK import
@@ -36,9 +36,16 @@ def find_gamepad():
 # 전역 상태
 state = {
     "voltage": 0.0,  # V
-    "gear": "N"     # D, R, N
+    "gear": "N",     # D, R, N
+    #"mode": "normal"	# normal | madmax
 }
 state_lock = threading.Lock()
+
+# 모드별 버튼 스로틀 값
+BUTTON_THROTTLE = {
+    "normal": 0.50,
+    "madmax": 0.70,
+}
 
 # 배터리 모니터링 스레드
 def battery_monitor_loop(piracer, stop_event):
@@ -67,6 +74,16 @@ def rc_control_loop(piracer, dev, stop_event):
                 throttle = 0.5 if event.value == 1 else 0.0
             elif event.code == ecodes.BTN_EAST:
                 throttle = -0.5 if event.value == 1 else 0.0
+
+	#if event.type == ecodes.EV_KEY:
+    	 #   if event.code == ecodes.BTN_SOUTH:
+        #	with state_lock:
+         #   	    v = BUTTON_THROTTLE.get(state["mode"], 0.5)
+        #	throttle = v if event.value == 1 else 0.0
+         #   elif event.code == ecodes.BTN_EAST:
+          #      with state_lock:
+           #         v = BUTTON_THROTTLE.get(state["mode"], 0.5)
+            #    throttle = -v if event.value == 1 else 0.0
 
         # 조이스틱 입력
         elif event.type == ecodes.EV_ABS and event.code == ecodes.ABS_X:
@@ -98,7 +115,20 @@ app = Flask(__name__)
 def status():
     with state_lock:
         return jsonify(state)
-
+##################################
+#@app.route('/mode', methods=['GET', 'POST'])
+#def mode():
+ #   if request.method == 'GET':
+#	with state_lock:
+#	    return jsonify({"mode": state["mode"]})
+ #   data = request.get_json(silent=True) or {}
+  #  m = (data.get("mode") or "").lower()
+   # if m in ("normal", "madmax"):
+#	with state_lock:
+#	    state["mode"] = m
+#	return jsonify({"ok": True, "mode": m})
+ #   return jsonify({"ok": False, "error": "mode must be normal|madmax"}), 400
+###################################
 # 메인 함수
 def main():
     # 차량 객체 생성
@@ -118,7 +148,7 @@ def main():
 
     # Flask 서버 실행
     try:
-        app.run(host='192.168.86.54', port=5000, threaded=True)
+        app.run(host='0.0.0.0', port=5000, threaded=True)
     finally:
         stop_event.set()
         t_batt.join()

@@ -2,30 +2,6 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 //import \"OneEuroFilter.js\" as OEF
 
-/*
-property real prevSpeed: 0
-property real prevDSpeed: 0
-property real filteredSpeed: 0
-property real lastT: performance.now()
-
-// 튜닝 파라미터 (필요하면 prop 만들어 외부 expose)
-readonly property real minCutoff:  1.5   // 작게 할수록 더 부드러움
-readonly property real betaCoeff:  0.3   // 급변 응답도 (0~1)
-readonly property real dCutoff:    1.0   // 속도 변화 필터
-
-onCanReaderSpeedChanged: {
-    var t  = performance.now();
-    var dt = Math.max( (t - lastT)/1000, 0.001 );   // sec
-    lastT  = t;
-
-    var res = OEF.filter(filteredSpeed, prevDSpeed,
-                         canReader.speed, dt,
-                         minCutoff, betaCoeff, dCutoff);
-    filteredSpeed = res.y;
-    prevDSpeed    = res.dx;
-}
-*/
-
 Item {
     id: root
     width: 1280

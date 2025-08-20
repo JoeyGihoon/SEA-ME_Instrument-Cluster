@@ -41,6 +41,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake"
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+  "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake"
+  "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake"
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake"
   "/usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake"

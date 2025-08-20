@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     CanReader can;
-    
+
     // C++ 객체를 QML에 등록
    // SpeedProvider speedProvider;
     engine.rootContext()->setContextProperty("canReader", &can);

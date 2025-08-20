@@ -81,6 +81,9 @@ qrc_resources.cpp: ../Cluster.qml
 qrc_resources.cpp: ../SpeedNeedle.qml
 qrc_resources.cpp: ../BatteryNeedle.qml
 qrc_resources.cpp: ../Gear.qml
+qrc_resources.cpp: ../OtherScreen.qml
+qrc_resources.cpp: ../SpeedNeedle_madmax.qml
+qrc_resources.cpp: ../BatteryNeedle_madmax.qml
 qrc_resources.cpp: ../car_back.png
 qrc_resources.cpp: ../dial.png
 qrc_resources.cpp: ../highlight-needle.png
@@ -88,10 +91,15 @@ qrc_resources.cpp: ../needle-normal.png
 qrc_resources.cpp: ../needle-warning.png
 qrc_resources.cpp: ../sea_me_white_text.png
 qrc_resources.cpp: ../car-highlights.png
-qrc_resources.cpp: ../music.svg
-qrc_resources.cpp: ../nav.svg
-qrc_resources.cpp: ../settings.svg
-qrc_resources.cpp: ../time.svg
+qrc_resources.cpp: ../Madmax_dial.png
+qrc_resources.cpp: ../Madmax_dial_mirror.png
+qrc_resources.cpp: ../immotan.jpeg
+qrc_resources.cpp: ../immotan_.png
+qrc_resources.cpp: ../search_.png
+qrc_resources.cpp: ../home_.png
+qrc_resources.cpp: ../menu_.png
+qrc_resources.cpp: ../close_.png
+qrc_resources.cpp: ../MadHomie-K7RPA.ttf
 qrc_resources.cpp: resources.qrc.depends
 qrc_resources.cpp: ../resources.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/team5/SEA-ME_Instrument-Cluster/GUI/Instrument_Cluster_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"

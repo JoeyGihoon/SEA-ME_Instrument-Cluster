@@ -5,6 +5,9 @@
         <file>SpeedNeedle.qml</file>
         <file>BatteryNeedle.qml</file>
         <file>Gear.qml</file>
+	<file>OtherScreen.qml</file>
+	<file>SpeedNeedle_madmax.qml</file>
+	<file>BatteryNeedle_madmax.qml</file>
     </qresource>
 
     <qresource prefix="/images">
@@ -15,12 +18,21 @@
         <file>needle-warning.png</file>
         <file>sea_me_white_text.png</file>
         <file>car-highlights.png</file>
+	<file>Madmax_dial.png</file>
+        <file>Madmax_dial_mirror.png</file>
+	<file>immotan.jpeg</file>
+	<file>immotan_.png</file>
     </qresource>
 
     <qresource prefix="/icons">
-        <file>music.svg</file>
-        <file>nav.svg</file>
-        <file>settings.svg</file>
-        <file>time.svg</file>
+        <file>search_.png</file>
+        <file>home_.png</file>
+        <file>menu_.png</file>
+        <file>close_.png</file>
     </qresource>
+ 
+    <qresource prefix="/fonts">
+	<file>MadHomie-K7RPA.ttf</file>
+    </qresource>
+
 </RCC>

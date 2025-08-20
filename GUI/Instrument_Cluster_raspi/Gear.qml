@@ -6,13 +6,13 @@ Item {
 
     // 주기적으로 /status 호출
     Timer {
-        interval: 1000    // 100ms
+        interval: 1000    // 1000ms
         repeat: true
         running: true
         triggeredOnStart: true
         onTriggered: {
             var xhr = new XMLHttpRequest()
-            xhr.open("GET", "http://192.168.86.54:5000/status")  // Flask 서버 주소
+            xhr.open("GET", "http://192.168.86.22:5000/status")  // Flask 서버 주소
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === XMLHttpRequest.DONE) {
                     if (xhr.status === 200) {
